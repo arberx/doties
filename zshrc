@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="arrow"
+ZSH_THEME="simple"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -58,6 +58,9 @@ ZSH_THEME="arrow"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
+AUTO_LS_NEWLINE=false
+
 plugins=(
   git zsh-autosuggestions auto-ls
 )
@@ -90,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias caen="ssh axhindol@login-course-2fa.engin.umich.edu"
+alias mom="ssh root@138.197.107.183"
+alias site="ssh root@45.55.37.226"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
