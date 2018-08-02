@@ -87,4 +87,6 @@ alias site="ssh root@45.55.37.226"
 alias update="_ apt-get update"
 alias upgrade="_ apt-get upgrade"
 alias refresh="source ~/.zshrc"
+alias sl="ls"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
