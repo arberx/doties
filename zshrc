@@ -82,7 +82,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Aliases
 alias caen="ssh axhindol@login-course-2fa.engin.umich.edu"
-alias mom="ssh root@206.81.3.126"
 alias site="ssh root@45.55.37.226"
 alias update="_ apt-get update"
 alias upgrade="_ apt-get upgrade"
