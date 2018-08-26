@@ -78,9 +78,9 @@ fi
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
+export PATH=$PATH:~/bin
 
-
-# Aliases
+#Aliases
 alias caen="ssh axhindol@login-course-2fa.engin.umich.edu"
 alias site="ssh root@45.55.37.226"
 alias update="_ apt-get update"
