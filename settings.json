@@ -1,0 +1,20 @@
+{
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Cobalt0",
+    "workbench.startupEditor": "none",
+    "files.autoSave": "onWindowChange",
+    "files.autoSaveDelay": 1000,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "block-outline",
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    "window.titleBarStyle": "native",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "terminal.integrated.rendererType": "dom",
+    "files.useExperimentalFileWatcher": true
+
+}
