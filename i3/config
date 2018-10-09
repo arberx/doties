@@ -170,7 +170,7 @@ bar {
 bindsym Control+Shift+l exec i3lock-fancy
 
 # execute morc_menu
-bindsym $mod+z exec morc_menu'
+bindsym $mod+z exec morc_menu
 
 # default workspace layout tabbed
 workspace_layout tabbed

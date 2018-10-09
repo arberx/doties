@@ -4,10 +4,11 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/arberx/.oh-my-zsh
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="simple"
+# POWERLEVEL CONFIG OPTIONS
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_MODE=nerdfont-fontconfig
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
