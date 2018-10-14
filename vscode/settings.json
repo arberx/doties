@@ -18,6 +18,7 @@
     "files.useExperimentalFileWatcher": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
-    "terminal.integrated.fontSize": 14
-
+    "terminal.integrated.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
 }
