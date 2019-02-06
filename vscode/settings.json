@@ -1,9 +1,10 @@
 {
-    "window.zoomLevel": -1,
-    "workbench.colorTheme": "Nord",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Tomorrow Night Blue",
     "workbench.startupEditor": "none",
     "files.autoSave": "onWindowChange",
     "files.autoSaveDelay": 1000,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.renderWhitespace": "boundary",
     "editor.cursorStyle": "block-outline",
     "editor.wordWrap": "on",
@@ -16,9 +17,14 @@
     "window.menuBarVisibility": "toggle",
     "terminal.integrated.rendererType": "dom",
     "files.useExperimentalFileWatcher": true,
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "gnome-terminal",
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+    "terminal.integrated.fontFamily": "'MesloLGL Nerd Font'",
     "terminal.integrated.fontSize": 14,
+    "terminal.integrated.letterSpacing": 0.5,
+    "terminal.integrated.lineHeight": 0.5,
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "vsicons.dontShowNewVersionMessage": true
 }

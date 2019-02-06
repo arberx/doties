@@ -1,11 +1,14 @@
 # oh-my-zsh installation.
-  export ZSH=/home/arberx/.oh-my-zsh
+export ZSH=/home/arberx/.oh-my-zsh
 
+export TERM=xterm-256color
+
+ZSH_THEME=simple
 # POWERLEVEL CONFIG OPTIONS
-ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_MODE=nerdfont-fontconfig
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+#POWERLEVEL9K_MODE=nerdfont-fontconfig
+#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 # plugin config
 AUTO_LS_NEWLINE=false
@@ -17,11 +20,11 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='code'
-fi
+#if [[ -n $SSH_CONNECTION ]]; then
+# export EDITOR='vim'
+#else
+# export EDITOR='code'
+#fi
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
@@ -35,5 +38,9 @@ alias upgrade="_ apt-get upgrade"
 alias autoremove="_ apt-get autoremove"
 alias refresh="source ~/.zshrc"
 alias sl="ls"
+alias pdf="xdg-open"
+alias sleep="_ systemctl suspend"
+alias sa="source env/bin/activate"
+alias da="deactivate"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
