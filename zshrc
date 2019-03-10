@@ -34,13 +34,15 @@ export PATH=$PATH:~/bin
 alias caen="ssh axhindol@login-course-2fa.engin.umich.edu"
 alias site="ssh root@45.55.37.226"
 alias update="_ apt-get update"
-alias upgrade="_ apt-get upgrade"
+alias upgrade="_ apt-get upgrade -y"
 alias autoremove="_ apt-get autoremove"
 alias refresh="source ~/.zshrc"
 alias sl="ls"
+alias SL="ls"
 alias pdf="xdg-open"
 alias sleep="_ systemctl suspend"
 alias sa="source env/bin/activate"
 alias da="deactivate"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval $(thefuck --alias)

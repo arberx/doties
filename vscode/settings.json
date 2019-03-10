@@ -1,6 +1,6 @@
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.colorTheme": "Dracula At Night",
     "workbench.startupEditor": "none",
     "files.autoSave": "onWindowChange",
     "files.autoSaveDelay": 1000,
@@ -12,7 +12,7 @@
     "workbench.statusBar.feedback.visible": false,
     "window.titleBarStyle": "native",
     "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.tips.enabled": false,
     "window.menuBarVisibility": "toggle",
     "terminal.integrated.rendererType": "dom",
@@ -26,5 +26,6 @@
     "terminal.integrated.lineHeight": 0.5,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "javascript.updateImportsOnFileMove.enabled": "never"
 }
