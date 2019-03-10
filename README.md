@@ -1,13 +1,13 @@
 # Current Setup
 
-### i3 Home
+### i3 home
 ![Home](images/i3.png)
 
-### Specs
+### specs
 ![Specs](images/neofetch.png)
 
-### Vscode
+### vscode
 ![Specs](images/vscode.png)
 
-### Vim/tmux
+### vim/tmux
 ![vim/tmux](images/tmux_vim.png)
