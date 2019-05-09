@@ -1,6 +1,6 @@
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Dracula At Night",
+    "workbench.colorTheme": "Tomorrow Night Blue",
     "workbench.startupEditor": "none",
     "files.autoSave": "onWindowChange",
     "files.autoSaveDelay": 1000,
@@ -26,6 +26,10 @@
     "terminal.integrated.lineHeight": 0.5,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "javascript.updateImportsOnFileMove.enabled": "never"
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "prettier.tabWidth": 4,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.printWidth": 100,
+    "prettier.useTabs": true,
+    "editor.formatOnSave": true
 }
