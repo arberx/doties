@@ -183,9 +183,9 @@ hide_edge_borders smart
 new_window none
 
 # set window 1 on hdmi1
-workspace 1 output primary 
-workspace 2 output primary
-workspace 3 output secondary
+workspace 1 output secondary 
+workspace 2 output secondary
+workspace 3 output primary
 
 # start up scripts
 exec --no-startup-id /usr/lib/gnome-settings-daemon/gsd-xsettings

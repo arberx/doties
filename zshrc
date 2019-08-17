@@ -42,6 +42,7 @@ alias pdf="xdg-open"
 alias sleep="_ systemctl suspend"
 alias sa="source env/bin/activate"
 alias da="deactivate"
+alias logout="sudo pkill -u arberx"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval $(thefuck --alias)
