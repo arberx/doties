@@ -182,6 +182,10 @@ hide_edge_borders smart
 # default border is none
 new_window none
 
+# set window 1 on hdmi1
+workspace 1 output primary 
+workspace 2 output primary
+workspace 3 output secondary
 
 # start up scripts
 exec --no-startup-id /usr/lib/gnome-settings-daemon/gsd-xsettings
@@ -189,5 +193,3 @@ exec_always --no-startup-id gnome-power-manager
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id gnome-flashback
 
-# Polybar command
-# exec --no-startup-id killall polybar; polybar -r example
