@@ -1,30 +1,31 @@
-# oh-my-zsh installation.
-export ZSH=/home/arberx/.oh-my-zsh
+### .zshrc - arberx
 
+# set terminal color values.
 export TERM=xterm-256color
 
-ZSH_THEME=simple
 # POWERLEVEL CONFIG OPTIONS
-#ZSH_THEME="powerlevel9k/powerlevel9k"
-#POWERLEVEL9K_MODE=nerdfont-fontconfig
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+# POWERLEVEL9K_MODE=nerdfont-fontconfig
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 # plugin config
 AUTO_LS_NEWLINE=false
-
 plugins=(
   git zsh-autosuggestions auto-ls
 )
 
+# oh-my-zsh intialization.
+ZSH_THEME=simple
+export ZSH=/home/arberx/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-# Preferred editor for local and remote sessions
-#if [[ -n $SSH_CONNECTION ]]; then
-# export EDITOR='vim'
-#else
-# export EDITOR='code'
-#fi
+# set editor depending on conneciton.
+if [[ -n "$SSH_CONNECTION" ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='code'
+fi
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
